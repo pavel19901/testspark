@@ -1,10 +1,10 @@
-package com.microtest.testspark;
+package com.microtest.Converter;
 import static spark.Spark.*;
 
 public class HelloWorld {
 
     public static void main(String[] args) {
 
-        get("/hello", (request, response) -> "Hello World!");
+        System.out.println("Hello World");
     }
 }
